@@ -6,3 +6,6 @@ export const Greeting=(req: Request, res: Response)=>{
     res.send(Gretting);
 }
 
+export const undefined404=(req: Request, res: Response)=>{
+    res.send("Hello")
+}
