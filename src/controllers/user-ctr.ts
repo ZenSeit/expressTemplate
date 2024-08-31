@@ -3,9 +3,9 @@ import userSvs from "../services/user-svs";
 
 export const Greeting=(req: Request, res: Response)=>{
     const Gretting = userSvs.registerNewUser();
-    res.send(Gretting);
+    res.json(Gretting);
 }
 
 export const undefined404=(req: Request, res: Response)=>{
-    res.send("Hello")
+    res.json("Hello World");
 }
